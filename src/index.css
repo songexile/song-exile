@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .beveled {
+    border: 1px solid #b3b3b3;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6),
+      0 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+
+  .box-gradient {
+    background: linear-gradient(
+      to top,
+      #817660 0%,
+      #9a8c7a 25%,
+      #e5e5e5 50%,
+      #9a8c7a 75%,
+      #817660 100%
+    );
+    padding: 10px;
+  }
+
+  .realistic-shadow {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+      0 16px 16px rgba(0, 0, 0, 0.12);
+    padding: 10px;
+  }
+
+  .y2k-shadow4 {
+    box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.7),
+      inset -2px -2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .y2k-shadow5 {
+    box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.7),
+      inset -8px -2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .simple-shadow {
+    box-shadow: 4px 4px black;
+  }
+
+  .black-border {
+    border: 2 px solid #000000;
+  }
+
+  .windows-xp-blue {
+    background: linear-gradient(
+      to top,
+      #0078d7 0%,
+      #3390dc 25%,
+      #c8e0f4 50%,
+      #3390dc 75%,
+      #0078d7 100%
+    );
+    padding: 10px;
+  }
+
+  #gradient-canvas {
+    width: 100%;
+    height: 100vh;
+    --gradient-color-1: #0078d7;
+    --gradient-color-2: #c8e0f4;
+    --gradient-color-3: #3390dc;
+    --gradient-color-4: #0078d7;
+  }
+}
