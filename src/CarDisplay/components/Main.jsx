@@ -6,7 +6,7 @@ import LeftPage from "./LeftPage";
 import RightPage from "./RightPage";
 import carModelsData from "../data/cars.json";
 
-import "../../../node_modules/xp.css/dist/XP.css";
+import "xp.css/dist/xp.css";
 
 function Main() {
   const carModels = carModelsData.map((carModel) => {

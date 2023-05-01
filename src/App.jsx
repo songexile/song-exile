@@ -12,6 +12,8 @@ function App() {
     <>
       <div className=" ">
         <Hero />
+        <AboutMe />
+        <Main />
       </div>
     </>
   );
