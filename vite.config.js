@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "xp.css/dist/xp.css": "/path/to/xp.css/dist/xp.css",
+      "xp.css/dist/xp.css": "./node_modules/xp.css/dist/xp.css",
     },
   },
   build: {
