@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Gradient } from "../assets/Gradient";
 import meImage from "../assets/me.jpg"; // Import the image
 
 function Hero() {
-  // Create your instance
   const gradient = new Gradient();
+  useEffect(() => {
+    gradient.initGradient("#gradient-canvas");
+  }, []);
+
+  // Create your instance
 
   // Call `initGradient` with the selector to your canvas
-  gradient.initGradient("#gradient-canvas");
 
   return (
     <div>
