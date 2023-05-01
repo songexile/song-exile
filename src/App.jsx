@@ -1,8 +1,9 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import Hero from "./components/Hero";
 import "./App.css";
+import Main from "./CarDisplay/components/Main";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +12,8 @@ function App() {
     <>
       <div className=" ">
         <Hero />
+        <Main />
+        <AboutMe />
       </div>
     </>
   );

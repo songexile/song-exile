@@ -67,4 +67,33 @@
     --gradient-color-3: #3390dc;
     --gradient-color-4: #0078d7;
   }
+
+  .y2k-shadow2 {
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2),
+      inset -1px -1px 5px rgb(65, 65, 65);
+  }
+
+  .y2k-shadow3 {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2),
+      inset -1px -5px 5px rgb(65, 65, 65);
+  }
+
+  .y2k-shadow4 {
+    box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.7),
+      inset -2px -2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .inner-stroke2 {
+    border: 4px groove #8ea7aa;
+    box-shadow: inset 4px 24px 8px rgba(0, 0, 0, 0.4),
+      inset -4px -4px 4px rgba(255, 255, 255, 0.6), 0 0 px rgba(0, 0, 0, 0.4);
+  }
+
+  .xp-button-container {
+    background: linear-gradient(180deg, #fff, #ecebe5 86%, #d8d0c4);
+  }
+
+  .button-animation {
+    transition: width 1s ease, box-shadow 1s ease;
+  }
 }
