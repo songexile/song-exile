@@ -35,11 +35,11 @@ function Main() {
           </div>
           <div className="window-body">
             <div className="App font-pixelated-sans flex items-center">
-              <div className="mx-auto flex relative bg-[url('src/assets/aura3.png')]">
+              <div className="mx-auto flex relative bg-[url('../assets/aura3.PNG')]">
                 {/* Pseudo-element for background image */}
                 <div className="absolute inset-0 bg-opacity-20 z-0 shadow-xl"></div>
                 {/* Pseudo-element for background color */}
-                <div className="absolute inset-0 bg-[url('/assets/aura3.png')] z-0"></div>
+                <div className="absolute inset-0 bg-[url(''../assets/aura3.PNG'')] z-0"></div>
                 {/* Main Div/Container */}
                 <div className="mx-4 relative rounded-lg">
                   {/* Header/Nav */}

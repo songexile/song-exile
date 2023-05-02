@@ -22,13 +22,11 @@ function Skybox() {
 
   const materials = [
     new THREE.MeshBasicMaterial({
-      map: new THREE.TextureLoader().load(
-        "src/assets/skybox/vz_classic_right.PNG"
-      ),
+      map: new THREE.TextureLoader().load(""),
       side: THREE.BackSide,
     }),
     new THREE.MeshBasicMaterial({
-      map: new THREE.TextureLoader().load("src/assets/skybox/aura.jpg"),
+      map: new THREE.TextureLoader().load(),
       side: THREE.BackSide,
     }),
   ];
@@ -36,18 +34,15 @@ function Skybox() {
   return (
     <mesh ref={meshRef}>
       <boxBufferGeometry args={[150, 150, 150]} />
-      {materials.map((material, index) => (
-        <primitive key={index} object={material} attachArray="material" />
-      ))}
     </mesh>
   );
 }
 
 function ModelLoader(props) {
-  const texture = useLoader(TextureLoader, "src/assets/aura3.PNG");
-  texture.wrapS = RepeatWrapping;
-  texture.wrapT = RepeatWrapping;
-  texture.repeat.set(5, 5);
+  // const texture = useLoader(TextureLoader, "/src/assets/aura3.PNG");
+  // texture.wrapS = RepeatWrapping;
+  // texture.wrapT = RepeatWrapping;
+  // texture.repeat.set(5, 5);
 
   return (
     <Canvas camera={{ position: [-10, 3, 5], fov: 80 }}>
@@ -65,7 +60,7 @@ function ModelLoader(props) {
       </Suspense>
       <mesh position={[0, 0.1, 0]} rotation={[-Math.PI / 2, 0, 0]}>
         <planeBufferGeometry args={[1000, 1000, 100, 100]} />
-        <meshBasicMaterial map={texture} />
+        <meshBasicMaterial color="lightgrey" />
       </mesh>
 
       <OrbitControls

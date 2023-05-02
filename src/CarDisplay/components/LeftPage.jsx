@@ -5,7 +5,6 @@ function LeftPage({ modelPath, carStats }) {
   return (
     <div className="w-1/3 sm:w-2/3 flex flex-col">
       <div className="h-1/3 sm:h-5/6 bg-blue-300 mx-1 mt-2  y2k-shadow2 flex justify-center items-center ">
-        {/* <div className="h-full rounded-2xl  w-full bg-cover y2k-shadow4 bg-[url('./assets/faye.png')] inner-stroke "></div> */}
         <ModelLoader key={modelPath} modelPath={modelPath} />
       </div>
       <div className="h-1/6 bg-gradient-to-t from-[#8ea7aa] to-[#53686b] mb-1 mt-4 rounded-2xl y2k-shadow4 mx-1 p-4 inner-stroke">
