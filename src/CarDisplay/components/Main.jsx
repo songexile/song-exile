@@ -5,6 +5,7 @@ import Header from "./Header";
 import LeftPage from "./LeftPage";
 import RightPage from "./RightPage";
 import carModelsData from "../data/cars.json";
+import "xp.css/dist/XP.css";
 
 function Main() {
   const carModels = carModelsData.map((carModel) => {
