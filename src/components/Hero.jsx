@@ -15,7 +15,7 @@ function Hero() {
   return (
     <div>
       {/* Nav Bar */}
-      <div className="w-screen h-16 windows-xp-blue"></div>
+      <div className="w-full h-8 windows-xp-blue"></div>
       <div className="relative ">
         <canvas
           id="gradient-canvas"
@@ -23,14 +23,14 @@ function Hero() {
           data-transition-in
         ></canvas>
         <p className="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl flex items-center justify-center">
-          <div className=" bg-white h-48 w-2/3 rounded-xl text-black flex items-center justify-center y2k-shadow4">
-            <div className="text-center">
+          <div className=" bg-white h-1/2 sm:h-48 w-full sm:w-1/3 mx-16 p-8  text-black flex items-center justify-center y2k-shadow4">
+            <div className="text-center mx-8">
               <p>
                 Hey! I'm <span className="text-blue-500"> Otis</span>
               </p>
               <p>
-                <br />
-                Welcome to my website, let's begin this experience!
+                <br /> This is my personal space on the internet. Here you will
+                learn about me and my projects.
               </p>
             </div>
           </div>

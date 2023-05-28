@@ -283,7 +283,7 @@ class MiniGl {
                   index: n.attributes.index,
                 });
             }
-            setSize(width = 1, height = 1, orientation = "xz") {
+            setSize(width = 1, height = 4, orientation = "xz") {
               const geometry = this;
               (geometry.width = width),
                 (geometry.height = height),
