@@ -30,7 +30,7 @@ function Hero() {
               </p>
               <p>
                 <br />
-                Welcome to my website, let's begin this experience!
+                Welcome to my website.
               </p>
             </div>
           </div>

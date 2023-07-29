@@ -12,7 +12,7 @@
   "dependencies": {
     "@react-three/drei": "^9.65.3",
     "@react-three/fiber": "^8.12.1",
-    "drei": "^2.2.21",
+    "drei": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-three-fiber": "^6.0.13",
