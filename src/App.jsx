@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import Hero from "./components/Hero";
-import "./App.css";
+
 import Main from "./CarDisplay/components/Main";
 import AboutMe from "./components/AboutMe";
 
